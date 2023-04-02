@@ -79,8 +79,13 @@ export default {
       }
 
       // move custom cursor
-      circle.style.transform = `translate(${this.circlePosX}px,${this.circlePosY}px) scale(${this.scale})`
-      dot.style.transform = `translate(${this.dotPosX}px,${this.dotPosY}px)`
+      if(circle) {
+        circle.style.transform = `translate(${this.circlePosX}px,${this.circlePosY}px) scale(${this.scale})`
+      }
+
+      if (dot) {
+        dot.style.transform = `translate(${this.dotPosX}px,${this.dotPosY}px)`
+      }
     }
   },
   mounted () {

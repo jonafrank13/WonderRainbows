@@ -1,6 +1,6 @@
-# Quasar App (marriage)
+# Quasar App (WonderRainbows)
 
-marriage website
+Wonder Rainbows website
 
 ## Install the dependencies
 ```bash

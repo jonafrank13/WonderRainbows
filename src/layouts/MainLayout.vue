@@ -60,12 +60,19 @@
         icon="menu"
         color="secondary"
         aria-label="Menu"
-        class="fixed-top-left animated infinite slow txt-shadow"
+        class="fixed-top-left animated infinite slow txt-shadow heartBeat"
         size="lg"
         style="z-index: 10;padding-left: inherit;"
         @click="handleMenuClick"
       />
-      <router-view />
+      <transition
+        name="transitions"
+        enter-active-class="animated fadeInRight"
+        leave-active-class="animated fadeOutLeft"
+        mode="out-in"
+      >
+        <router-view />
+      </transition>
     </q-page-container>
   </q-layout>
 </template>

@@ -1,8 +1,8 @@
 {
-  "name": "marriage",
+  "name": "wonder_rainbows",
   "version": "0.0.1",
-  "description": "marriage website",
-  "productName": "Ohmydiar",
+  "description": "wonder rainbows website",
+  "productName": "Wonder Rainbows",
   "author": "Jona Frank (jona.mailbox@gmail.com)",
   "private": true,
   "scripts": {

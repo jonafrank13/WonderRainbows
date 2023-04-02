@@ -104,7 +104,7 @@ module.exports = function (/* ctx */) {
 
     // animations: 'all', // --- includes all animations
     // https://v1.quasar.dev/options/animations
-    animations: [],
+    animations: 'all',
 
     // https://v1.quasar.dev/quasar-cli/developing-ssr/configuring-ssr
     ssr: {
@@ -116,9 +116,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `Quasar App`,
-        short_name: `Quasar App`,
-        description: `marriage website`,
+        name: `WonderRainbows`,
+        short_name: `WonderRainbows`,
+        description: `Wonder Rainbows website`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
@@ -183,7 +183,7 @@ module.exports = function (/* ctx */) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'marriage'
+        appId: 'WonderRainbows'
       },
 
       // More info: https://v1.quasar.dev/quasar-cli/developing-electron-apps/node-integration
