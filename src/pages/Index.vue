@@ -10,13 +10,7 @@
       </div>
       <div data-depth="0.5">
         <div id="layer2">
-          <h2 class="text-accent text-bold text-center">Arvind weds Dianna</h2>
-          <h3 class="text-positive text-bold text-center">14.06.2021</h3>
-          <h4 class="text-warning text-bold text-center">
-            <vue-countdown :time="countdownTime" v-slot="{ days, hours, minutes, seconds }">
-              Countdown <span v-if="days > 0">{{ days }} day,</span> {{ hours }} hour(s), {{ minutes }} minute(s), {{ seconds }} second(s).
-            </vue-countdown>
-          </h4>
+          <h2 class="text-accent text-bold text-center">Wonder Rainbows</h2>
         </div>
       </div>  
       <div data-depth="0.9" class="desktop-only">
@@ -45,17 +39,12 @@
 </template>
 
 <script>
-import VueCountdown from '@chenfengyuan/vue-countdown';
 
 export default {
   name: 'PageIndex',
   data () {
     return {
-      countdownTime: (new Date('06/14/2021 12:00') - Date.now())
     }
-  },
-  components: {
-    VueCountdown
   },
   mounted: function () {
     let scene = document.getElementById('scene');
@@ -70,7 +59,7 @@ export default {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-image: url('../../public/bg1.png');
+  background-color: black;
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: 50%;

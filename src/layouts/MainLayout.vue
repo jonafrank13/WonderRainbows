@@ -14,8 +14,7 @@
           style="position: sticky; top: 0;z-index: 9;"
         >
           <div class="menu-img"></div>
-          <div class="text-center text-bold text-secondary q-mt-md full-width text-h2">Arvind weds Dianna</div>
-          <div class="text-center full-width text-bold text-h4" :class="$q.dark.isActive ? 'text-dark' : 'text-accent'">14.06.2021</div>
+          <div class="text-center text-bold text-secondary q-mt-md full-width text-h2">Wonder Rainbows</div>
         </q-item-label>
         <EssentialLink
           v-for="link in essentialLinks"
@@ -47,7 +46,7 @@
       </q-list>
       <div class="full-width flex row justify-center position absolute-bottom" :class="$q.dark.isActive ? 'bg-dark' : 'bg-white'">
         <!-- DO NOT REMOVE THIS LINE -->
-        <div style="border-top: 0.5px solid white" class="text-center text-h5 text-weight-thin">Made by - <a :class="$q.dark.isActive ? 'text-accent' : 'text-warning'" href="https://jonafrank13.github.io/">Jona Frank</a> - 2021</div>
+        <div style="border-top: 0.5px solid white" class="text-center text-h5 text-weight-thin">Made by - <a :class="$q.dark.isActive ? 'text-accent' : 'text-warning'" href="https://jonafrank13.github.io/">Jona Frank</a> - 2023</div>
         <!-- DO NOT REMOVE THIS LINE -->
       </div>
     </q-drawer>
@@ -94,25 +93,13 @@ export default {
         },
         {
           title: 'About',
-          caption: 'About this match made in heaven',
+          caption: 'Learn more about us',
           icon: 'mood',
           link: '/about'
         },
         {
-          title: 'Venue',
-          caption: 'Directions to the venue',
-          icon: 'map',
-          link: '/venue'
-        },
-        {
-          title: 'Live Stream',
-          caption: 'Watch the ceremony',
-          icon: 'videocam',
-          link: '/stream'
-        },
-        {
           title: 'Gallery',
-          caption: 'Our Pics',
+          caption: 'Checkout our work',
           icon: 'camera_enhance',
           link: '/gallery'
         },
